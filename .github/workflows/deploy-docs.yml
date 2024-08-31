@@ -44,7 +44,7 @@ jobs:
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
+      - name: 部署文档1
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署文档
