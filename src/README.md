@@ -3,8 +3,8 @@ home: true
 icon: home
 title: 项目主页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+# bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
+# bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: 清峰
@@ -21,8 +21,8 @@ actions:
 highlights:
   - header: 易于安装
     image: /assets/image/box.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
       - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
       - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
@@ -30,8 +30,8 @@ highlights:
   - header: 在 Markdown 中添加你想要的内容
     description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
     image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
@@ -174,8 +174,8 @@ highlights:
   - header: 可定制的页面
     description: 完整无障碍支持的可定制外观
     image: /assets/image/ui.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     highlights:
       - title: 深色模式
         icon: circle-half-stroke
@@ -195,8 +195,8 @@ highlights:
   - header: 布局
     description: 一个完美的响应式布局。
     image: /assets/image/layout.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
       - title: 导航栏
         icon: window-maximize
@@ -225,8 +225,8 @@ highlights:
 
   - header: 新功能
     image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
     features:
       - title: 目录页面
         icon: network-wired
@@ -266,8 +266,8 @@ highlights:
   - header: 博客
     description: 通过主题创建个人博客
     image: /assets/image/blog.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
       - title: 博客功能
         icon: blog
@@ -292,8 +292,8 @@ highlights:
   - header: 高级
     description: 增强站点与用户体验的高级功能
     image: /assets/image/advanced.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
     highlights:
       - title: SEO 增强
         icon: dumbbell
