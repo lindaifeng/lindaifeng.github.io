@@ -2,6 +2,7 @@
 home: true
 icon: home
 title: 项目主页
+# heroImage: https://avatars.githubusercontent.com/u/61862335?v=4
 heroImage: /assets/image/markdown.svg
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 # bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
@@ -37,42 +38,42 @@ highlights:
       background-repeat: repeat
       background-size: initial
     features:
-      - title: 链接检查
+      - title: 链接检查 <hr>
         icon: clipboard-check
         details: 检查 Markdown 链接
         link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
 
-      - title: 提示容器
+      - title: 提示容器 <hr>
         icon: box-archive
         details: 用样式装饰 Markdown 内容
         link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/hint.html
 
-      - title: GFM 警告
+      - title: GFM 警告 <hr>
         icon: bell
         details: GFM 风格的警告容器
         link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/alert.html
 
-      - title: 选项卡
+      - title: 选项卡 <hr>
         icon: table-columns
         details: 使用选项卡对相似内容进行分组
         link: https://theme-hope.vuejs.press/zh/guide/markdown/content/tabs.html
 
-      - title: 代码组
+      - title: 代码组 <hr>
         icon: code
         details: 使用选项卡对相似代码进行分组
         link: https://theme-hope.vuejs.press/zh/guide/markdown/code/code-tabs.html
 
-      - title: 自定义对齐
+      - title: 自定义对齐 <hr>
         icon: align-center
         details: Markdown 中对内容进行自定义对齐
         link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/align.html
 
-      - title: 自定义属性
+      - title: 自定义属性 <hr>
         icon: code
         details: 为 Markdown 元素添加属性
         link: https://theme-hope.vuejs.press/zh/guide/markdown/stylize/attrs.html
 
-      - title: 上下角标
+      - title: 上下角标 <hr>
         icon: superscript
         details: 轻松在 Markdown 中添加上下角标
         link: https://theme-hope.vuejs.press/zh/guide/markdown/grammar/sup-sub.html
@@ -80,7 +81,7 @@ highlights:
 copyright: false
 footer:  MIT 协议 | 版权所有 © 2024-至今 清峰小栈
 ---
-<hr>
+
 <h2>是什么？</h2>
 &nbsp 自己写文的目的是为了记录自己对知识点的掌握程度，在未来的发展过程中不断的巩固，从而形成一个自己熟悉且较为完备的知识体系。
 <br>
