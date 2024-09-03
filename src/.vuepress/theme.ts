@@ -5,7 +5,7 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
-
+  darkmode:"switch",
   author: {
     name: "Mr.Hope",
     url: "https://mister-hope.com",
@@ -18,6 +18,15 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
+
+  //打印
+  print: true,
+
+  //全屏
+  fullscreen: true,
+
+  //纯净模式
+  pure: false,
 
   // 导航栏
   navbar,
@@ -38,7 +47,7 @@ export default hopeTheme({
 
   // 多语言配置
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    // editLink: "在 GitHub 上编辑此页",
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
@@ -46,6 +55,9 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
+    //搜索插件
+    searchPro: true,
+
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
