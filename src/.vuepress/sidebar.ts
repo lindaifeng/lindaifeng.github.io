@@ -1,26 +1,9 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/": [
-    "",
-    "portfolio",
-    {
-      text: "案例",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "文档",
-      icon: "book",
-      prefix: "guide/",
-      children: "structure",
-    },
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    },
-  ],
+  //添加左侧侧边栏目录树 structure关键字:自动根据标题生成
+  "/java/": "structure",
+  "/database/": "structure",
+  "/frame/": "structure",
+  "/deploy/": "structure",
 });

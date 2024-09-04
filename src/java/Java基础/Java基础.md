@@ -1,23 +1,15 @@
 ---
-icon: lock
+order: 1
+title: Java基础
 category:
-  - 使用指南
+  - Java指南
 tag:
   - 加密
 ---
 
-# 密码加密的文章
+# java基础的文章
 
-实际的文章内容。
-
-说明：
-theme.ts中
-  // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
+实际的java基础的文章
 
 段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。
 
