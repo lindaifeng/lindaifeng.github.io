@@ -5,5 +5,7 @@ export default sidebar({
   "/java/": "structure",
   "/database/": "structure",
   "/frame/": "structure",
+  "/middleware/": "structure",
   "/deploy/": "structure",
+  "/commands/": "structure",
 });

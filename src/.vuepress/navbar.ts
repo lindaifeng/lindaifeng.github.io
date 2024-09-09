@@ -22,9 +22,19 @@ export default navbar([
     link: "/frame/"
   },
   {
+    text: "中间件知识库",
+    icon: "fa-solid fa-book",
+    link: "/middleware/"
+  },
+  {
     text: "部署文档",
     icon: "fa-solid fa-folder-open",
     link: "/deploy/"
+  },
+  {
+    text: "常用命令",
+    icon: "fa-solid fa-folder-open",
+    link: "/commands/"
   },
   //博客门户
   // "/portfolio",
