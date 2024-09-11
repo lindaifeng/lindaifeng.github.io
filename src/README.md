@@ -14,11 +14,11 @@ tagline: 学习知识库总结指南。
 actions:
   - text: 开始阅读
     icon: lightbulb
-    link: ./demo/
+    link: ./java/
     type: primary
 
   - text: 文档
-    link: ./guide/
+    link: ./deploy/
 
 highlights:
   # - header: 易于安装

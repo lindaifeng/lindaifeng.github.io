@@ -14,32 +14,43 @@ export default navbar([
   {
     text: "数据库知识库",
     icon: "fa-solid fa-database",
-    link: "/database/Mongo数据库/Mongo基础.md"
+    link: "/database/Redis数据库/Redis数据库.md"
   },
   {
     text: "框架知识库",
-    icon: "fa-solid fa-book",
+    icon: "fa-solid fa-paper-plane",
     link: "/frame/"
   },
   {
     text: "中间件知识库",
     icon: "fa-solid fa-book",
-    link: "/middleware/"
+    link: "/middleware/容器化技术/Docker技术/Docker介绍.md"
   },
   {
     text: "部署文档",
     icon: "fa-solid fa-folder-open",
-    link: "/deploy/"
+    link: "/deploy/Linux部署文档/软件安装/Linux 安装docker.md"
   },
   {
-    text: "常用命令",
-    icon: "fa-solid fa-folder-open",
-    link: "/commands/"
+    text: "其他扩展",
+    icon: "fa-solid fa-gears",
+    children: [
+      {
+        text: "常用命令",
+        icon: "fa-solid fa-gear",
+        link: "/extra/commands/"
+      },
+      {
+        text: "常用插件",
+        icon: "fa-solid fa-gear",
+        link: "/extra/plugins/IDEA常用插件.md"
+      },
+    ]
   },
   //博客门户
   // "/portfolio",
   //演示文档
-  "/demo/",
+  // "/demo/",
   //超链接引用
   // {
   //   text: "V2 文档",
