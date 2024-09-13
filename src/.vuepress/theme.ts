@@ -4,18 +4,23 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://github.com/lindaifeng/docs",
   darkmode:"switch",
   author: {
     name: "清峰",
-    url: "https://mister-hope.com",
+    url: "https://github.com/lindaifeng/docs",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "http://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406.png",
+  // logo: "http://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406.png",
+  // logo: "http://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406.png",
+  // logo: "http://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+
+  repo: "https://github.com/lindaifeng/docs",
 
   docsDir: "src",
 
@@ -59,7 +64,6 @@ export default hopeTheme({
   plugins: {
     //搜索插件
     searchPro: true,
-
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
@@ -75,6 +79,8 @@ export default hopeTheme({
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
+      // 启用 GFM 警告
+      alert: true,
       align: true,
       attrs: true,
       codetabs: true,
