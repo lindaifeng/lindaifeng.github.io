@@ -410,19 +410,7 @@ CONTAINER ID   IMAGE                           COMMAND                  CREATED 
 
 
 
-![image-20220816153241393](Rancher容器云管理平台.assets/image-20220816153241393.png)
 
-
-
-在集群节点命令行，如果访问呢？
-
-![image-20220816153917499](http://img.lindaifeng.vip/typora-picgo-tuchaung/20230506112054.png)
-
-
-
-
-
-![image-20220816154006380](http://img.lindaifeng.vip/typora-picgo-tuchaung/20230506112103.png)
 
 
 
