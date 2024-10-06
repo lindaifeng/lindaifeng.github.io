@@ -800,9 +800,6 @@ kubemsbdata-myvolume-pvc-52460d7f-db89-40ab-b09e-ab9d0cfcaa17
 
 
 
-![image-20220816204323541](Rancher容器云管理平台.assets/image-20220816204323541.png)
-
-
 
 ![image-20220816204356332](http://img.lindaifeng.vip/typora-picgo-tuchaung/20230506112535.png)
 
