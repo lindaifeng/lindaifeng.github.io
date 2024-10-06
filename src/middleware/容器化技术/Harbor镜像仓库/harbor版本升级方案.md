@@ -49,7 +49,7 @@ order: 1
 
    官网：https://goharbor.io/
 
-   ![image-20230129100035153](%20http://img.lindaifeng.vip/typora-picgo-tuchaung/20230130170406.png)
+   ![image-20230129100035153](http://img.lindaifeng.vip/typora-picgo-tuchaung/20230130170406.png)
 
 2. **下载最新版本**
 
