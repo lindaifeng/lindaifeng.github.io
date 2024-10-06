@@ -4,7 +4,7 @@ icon: home
 title: 项目主页
 # heroImage: https://avatars.githubusercontent.com/u/61862335?v=4
 # heroImage: /assets/image/markdown.svg
-heroImage: /assets/17262063124186.png
+heroImage: /assets/17262062038347.png
 # heroImage: http://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406_1.png
 
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
@@ -92,10 +92,114 @@ footer:  MIT 协议 | 版权所有 © 2024-至今 清峰小栈
 
 <h2>为什么？</h2>
 
-::: tip 注:
+::: tip Tip:
   盖好一栋大厦的关键在于打好地基，但后期的维护和补丁也不可或缺，做笔记并不是目的，目的是为了掌握知识点。
 :::
 <hr>
 <br>
 &nbsp 知识只有被系统性的归纳起来，才能建立起知识体系，碎片化、零散化地去学习，会让自己陷入一种自我麻痹且极度自信的状态，会让你产生一种所有知识都懂假象，随便提起来一些知识点也都能说上两嘴，但是不能深究，一旦深入一点，就好像缓存穿透一般，所有的刨根问底都造成了真实伤害。
 <br>
+
+<!-- #include-env-start: /home/runner/work/vuepress-theme-hope/vuepress-theme-hope/docs/md-enhance/src/echarts -->
+::: echarts 清峰小栈访问趋势图
+
+```js
+const oneDay = 86400000;
+const data = [];
+let now = new Date(1997, 9, 3);
+let value = Math.random() * 1000;
+
+const randomData = () => {
+  now = new Date(+now + oneDay);
+  value = value + Math.random() * 21 - 10;
+  return {
+    name: now.toString(),
+    value: [
+      [now.getFullYear(), now.getMonth() + 1, now.getDate()].join("/"),
+      Math.round(value),
+    ],
+  };
+};
+
+for (let i = 0; i < 1000; i++) data.push(randomData());
+
+const option = {
+  tooltip: {
+    trigger: "axis",
+    formatter: function (params) {
+      params = params[0];
+      var date = new Date(params.name);
+      return (
+        date.getDate() +
+        "/" +
+        (date.getMonth() + 1) +
+        "/" +
+        date.getFullYear() +
+        " : " +
+        params.value[1]
+      );
+    },
+    axisPointer: {
+      animation: false,
+    },
+  },
+  xAxis: {
+    type: "time",
+    splitLine: {
+      show: false,
+    },
+  },
+  yAxis: {
+    type: "value",
+    boundaryGap: [0, "100%"],
+    splitLine: {
+      show: false,
+    },
+  },
+  toolbox: {
+    show: true,
+    feature: {
+      mark: {
+        show: true,
+      },
+      dataView: {
+        show: true,
+        readOnly: false,
+      },
+      restore: {
+        show: true,
+      },
+      saveAsImage: {
+        show: true,
+      },
+    },
+  },
+  series: [
+    {
+      name: "Fake Data",
+      type: "line",
+      showSymbol: false,
+      data: data,
+    },
+  ],
+};
+const timeId = setInterval(() => {
+  if (myChart._disposed) return clearInterval(timeId);
+
+  for (let i = 0; i < 5; i++) {
+    data.shift();
+    data.push(randomData());
+  }
+  myChart.setOption({
+    series: [
+      {
+        data: data,
+      },
+    ],
+  });
+}, 1000);
+```
+
+:::
+
+<!-- #include-env-end -->

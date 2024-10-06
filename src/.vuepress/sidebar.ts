@@ -7,5 +7,5 @@ export default sidebar({
   "/frame/": "structure",
   "/middleware/": "structure",
   "/deploy/": "structure",
-  "/commands/": "structure",
+  "/extra/": "structure",
 });

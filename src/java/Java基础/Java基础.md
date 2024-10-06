@@ -1,5 +1,5 @@
 ---
-title: java基础
+title: Java基础
 order: 1
 ---
 

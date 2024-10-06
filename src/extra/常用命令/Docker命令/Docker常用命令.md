@@ -31,8 +31,10 @@ docker cp 容器id:目录数据	目录数据
 
 ### 容器构建
 
-```
+```bash
 docker build -f 文件名 -t 容器名 .
+或者使用增强型构建工具构建多平台架构（要安装并使用 buildx, 需要 Docker Engine 版本号大于等于 19.03）
+docker buildx build --platform=linux/arm64 -f 文件名 -t 容器名 .
 ```
 
 ### 容器打包成一个镜像
@@ -44,7 +46,7 @@ docker commit -a="badaodechengxvyuan" -m"addgeoserver" 39f5b723d1b8 tomcatwithge
 
 ### 镜像重命名
 
-```shell
+```bash
 docker tag 原始镜像名 新的镜像名:版本
 docker tag centos centos:v1
 

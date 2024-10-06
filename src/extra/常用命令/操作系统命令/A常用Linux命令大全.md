@@ -1,5 +1,5 @@
 ---
-title: Java 开发常用的 Linux 命令
+title: Java常用Linux命令
 categories: 
   - Linux
 tags: 
@@ -9,7 +9,7 @@ order: 3
 
 
 
-# Java 开发常用的 Linux 命令知识积累
+# Java常用Linux命令知识积累
 
 - 基本操作
 

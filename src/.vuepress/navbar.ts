@@ -29,7 +29,7 @@ export default navbar([
   {
     text: "部署文档",
     icon: "fa-solid fa-folder-open",
-    link: "/deploy/Linux部署文档/软件安装/Linux 安装docker.md"
+    link: "/deploy/Linux部署文档/软件安装/Linux安装docker.md"
   },
   {
     text: "其他扩展",
@@ -38,12 +38,12 @@ export default navbar([
       {
         text: "常用命令",
         icon: "fa-solid fa-gear",
-        link: "/extra/commands/"
+        link: "/extra/常用命令/操作系统命令/A常用Linux命令大全.md"
       },
       {
         text: "常用插件",
         icon: "fa-solid fa-gear",
-        link: "/extra/plugins/IDEA常用插件.md"
+        link: "/extra/插件/IDEA常用插件.md"
       },
     ]
   },
