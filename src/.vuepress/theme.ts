@@ -71,10 +71,10 @@ export default hopeTheme({
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
-      repo: "lindaifeng/docs-comment",
-      repoId: "R_kgDOM8SPew",
+      repo: "lindaifeng/docs",
+      repoId: "R_kgDOMq3Mpg",
       category: "Announcements",
-      categoryId: "DIC_kwDOM8SPe84CjHQ-",
+      categoryId: "DIC_kwDOMq3Mps4CjjJE",
     },
 
     components: {
