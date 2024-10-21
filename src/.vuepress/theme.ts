@@ -4,24 +4,28 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://github.com/lindaifeng/docs",
+  // 主题网站
+  hostname: "http://blog.lindaifeng.vip/",
+  // 深色模式
   darkmode:"switch",
+  // 作者信息
   author: {
     name: "清峰",
-    url: "https://github.com/lindaifeng/docs",
+    url: "http://blog.lindaifeng.vip/",
   },
+  //站点图标
+  favicon: "/assets/1726206451406.png",
 
+  //字体图标资源链接
   iconAssets: "fontawesome-with-brands",
 
-  // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-  logo: "http://img.lindaifeng.vip/typora-picgo-tuchaung/17262062636347.png",
-  // logo: "http://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406.png",
-  // logo: "http://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406.png",
-  // logo: "http://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406.png",
+  // 主页图标
+  logo: "/assets/17262062636347.png",
 
+  // 仓库链接
+  // repo: "https://github.com/lindaifeng/docs",
 
-  repo: "https://github.com/lindaifeng/docs",
-
+  // 根目录
   docsDir: "src",
 
   //打印
