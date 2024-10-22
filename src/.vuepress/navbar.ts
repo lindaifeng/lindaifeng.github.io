@@ -50,6 +50,11 @@ export default navbar([
         icon: "fa-solid fa-gear",
         link: "/extra/插件/IDEA常用插件.md"
       },
+      {
+        text: "代码片段",
+        icon: "fa-solid fa-gear",
+        link: "/extra/代码片段/AOP日志埋点.md"
+      },
     ]
   },
   //博客门户

@@ -14,7 +14,8 @@ export default hopeTheme({
     url: "http://blog.lindaifeng.vip/",
   },
   //站点图标
-  favicon: "/assets/1726206451406.png",
+  // favicon: "/assets/1726206451406.png",
+  favicon: "http://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406.png",
 
   //字体图标资源链接
   iconAssets: "fontawesome-with-brands",
