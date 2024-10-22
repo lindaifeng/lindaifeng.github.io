@@ -4,7 +4,6 @@ categories:
   - Nginx
 tags: 
   - https
-order: 2
 ---
 
 
@@ -29,7 +28,7 @@ HTTPS：是以安全为目标的HTTP通道，简单讲是HTTP的安全版，即H
 
 
 
-![image-20210523181111096](https://gitee.com/lindaifeng/my-images/raw/master/img/image-20210523181111096.png)
+![image-20210523181111096](http://img.lindaifeng.vip/typora-picgo-tuchaung/image-20210523181111096.png)
 
 
 
@@ -37,7 +36,7 @@ HTTPS：是以安全为目标的HTTP通道，简单讲是HTTP的安全版，即H
 
 
 
-![image-20210523181224421](https://gitee.com/lindaifeng/my-images/raw/master/img/image-20210523181224421.png)
+![image-20210523181224421](http://img.lindaifeng.vip/typora-picgo-tuchaung/image-20210523181224421.png)
 
 
 
@@ -57,7 +56,7 @@ cd nginx的安装目录sbin下输入
 
 
 
-![image-20210523181704656](https://gitee.com/lindaifeng/my-images/raw/master/img/image-20210523181704656.png)
+![image-20210523181704656](http://img.lindaifeng.vip/typora-picgo-tuchaung/image-20210523181704656.png)
 
 
 
@@ -106,7 +105,7 @@ mkdir -p /nginx/card-key-pem
 
 
 
-![image-20210523184201035](https://gitee.com/lindaifeng/my-images/raw/master/img/image-20210523184201035.png)
+![image-20210523184201035](http://img.lindaifeng.vip/typora-picgo-tuchaung/image-20210523184201035.png)
 
 
 
@@ -163,7 +162,7 @@ server {
 
 
 
-![image-20210523185524664](https://gitee.com/lindaifeng/my-images/raw/master/img/image-20210523185524664.png)
+![image-20210523185524664](http://img.lindaifeng.vip/typora-picgo-tuchaung/image-20210523185524664.png)
 
 
 

@@ -19,7 +19,7 @@ export default navbar([
   {
     text: "框架知识库",
     icon: "fa-solid fa-paper-plane",
-    link: "/frame/"
+    link: "/frame/springboot/SpringBoot自动装配原理.md"
   },
   {
     text: "中间件知识库",
@@ -30,6 +30,11 @@ export default navbar([
     text: "部署文档",
     icon: "fa-solid fa-folder-open",
     link: "/deploy/Linux部署文档/软件安装/Linux安装docker.md"
+  },
+  {
+    text: "前端",
+    icon: "fa-solid fa-folder-open",
+    link: "/web/js/AJAX.md"
   },
   {
     text: "其他扩展",
