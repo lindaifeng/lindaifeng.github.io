@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: http://blog.lindaifeng.vip/sitemap.xml
