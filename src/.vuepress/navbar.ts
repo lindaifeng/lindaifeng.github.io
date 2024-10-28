@@ -14,7 +14,7 @@ export default navbar([
   {
     text: "数据库知识库",
     icon: "fa-solid fa-database",
-    link: "/database/Redis数据库/Redis数据库.md"
+    link: "/database/Redis数据库/Redis基础.md"
   },
   {
     text: "框架知识库",

@@ -49,7 +49,7 @@ highlights:
       - title: 数据库知识库 <hr>
         icon: box-archive
         details: 数据库Mysql、Redis应用指南
-        link: /database/Redis数据库/Redis数据库.md
+        link: /database/Redis数据库/Redis高级.md
 
       - title: 框架知识库 <hr>
         icon: bell
