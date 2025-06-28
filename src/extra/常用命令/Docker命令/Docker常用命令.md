@@ -57,7 +57,7 @@ harbor: docker tag 镜像id ip+端口+仓库名+镜像名：版本
 ### 关闭自动重启
 
 ```shell
-docker update --restart=no 容器名
+docker update --restart=no或always 容器名
 禁用所有自动重启（守护程序）容器
 docker update --restart=no $(docker ps -a -q)
 ```

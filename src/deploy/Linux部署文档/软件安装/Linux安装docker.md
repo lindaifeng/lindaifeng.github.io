@@ -89,6 +89,26 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
+### 在线安装docker-compose
+
+```bash
+-- 这个命令会下载最新版本的 Docker Compose 并保存到 /usr/local/bin/docker-compose。
+
+curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+```
+
+赋予执行权限：
+
+```bash
+chmod +x /usr/local/bin/docker-compose
+```
+
+安装完成后，可以运行以下命令来验证 Docker Compose 是否成功安装：
+
+```bash
+docker-compose --version
+```
+
 ## 三、离线安装Docker
 
 ### 下载安装包
@@ -178,6 +198,8 @@ systemctl daemon-reload && systemctl restart docker
 
 ### 下载安装包
 
+所有版本下载路径： https://github.com/docker/compose/releases
+
 Docker-Compose下载路径：https://github.com/docker/compose/releases/download/1.24.1/docker-compose-Linux-x86_64
 
 > 选择合适的docker版本
@@ -185,21 +207,14 @@ Docker-Compose下载路径：https://github.com/docker/compose/releases/download
 ### 配置
 
 ~~~bash
-#依次执行一下命令
-#重命名
-mv docker-compose-Linux-x86_64 docker-compose
-或有的是
-mv docker-compose-Linux-x86_64.64 docker-compose
-#修改权限
-chmod +x docker-compose
-#将docker-compose文件移动到了/usr/local/bin 
-mv docker-compose /usr/local/bin
-#打开/etc/profile文件
-vi /etc/profile
-#添加内容到文件末尾即可,然后保存退出
-#export PATH=$JAVA_HOME:/usr/local/bin:$PATH
-#重新加载配置文件,让其生效
-#source /etc/profile
-#测试
-docker-compose -version
+mv docker-compose-Linux-x86_64 /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ~~~
+
+### 验证
+
+```bash
+docker-compose version
+```
+

@@ -48,6 +48,19 @@ tar -xzf nginx-1.16.1.tar.gz
 
 ```
 ./configure
+如果要安装其他模块支持执行（事先安装好软件包）
+./configure \
+--prefix=/usr/local/nginx \
+--with-http_ssl_module \
+--with-http_v2_module \
+--with-http_gzip_static_module \
+--with-http_stub_status_module \
+--with-http_realip_module \
+--with-http_sub_module \
+--with-http_dav_module \
+--with-http_flv_module \
+--with-http_mp4_module \
+--with-http_gunzip_module
 ```
 
 6、编译
