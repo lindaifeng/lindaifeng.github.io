@@ -9,7 +9,7 @@ export default navbar([
   {
     text: "Java知识库",
     icon: "fa-brands fa-java",
-    link: "/java/Java基础/Java基础.md",
+    link: "/java/0、开发规范/编码规范.md",
   },
   {
     text: "数据库知识库",
