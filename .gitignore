@@ -4,3 +4,8 @@ src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
 docs-main-1.0.zip
+
+
+.idea
+.vscode
+
