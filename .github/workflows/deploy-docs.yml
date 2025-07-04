@@ -26,14 +26,35 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'pnpm'  # 使用setup-node内置的pnpm缓存
+          # 完全禁用 setup-node 的缓存
+          cache: false
+
+      - name: 获取 pnpm 存储路径
+        id: pnpm-store
+        run: |
+          echo "STORE_DIR=$(pnpm store path)" >> $GITHUB_OUTPUT
+          mkdir -p "$(pnpm store path)"
+
+      - name: 缓存依赖
+        uses: actions/cache@v3
+        with:
+          path: |
+            ${{ steps.pnpm-store.outputs.STORE_DIR }}
+            node_modules
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
 
       - name: 安装依赖
         run: |
           corepack enable
           pnpm install --frozen-lockfile
-          # 确保缓存目录被创建
-          pnpm store path | xargs mkdir -p
+
+      - name: 验证缓存目录
+        run: |
+          echo "当前 pnpm 存储路径:"
+          pnpm store path
+          ls -la "$(pnpm store path)"
 
       - name: 构建文档
         env:
