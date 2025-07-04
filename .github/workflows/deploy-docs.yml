@@ -26,11 +26,25 @@ jobs:
           version: 8
 
 
+      - name: 创建缓存目录
+        run: |
+          mkdir -p ~/.pnpm-store
+          mkdir -p node_modules
+
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
+          cache: 'pnpm'
+
+      - name: 缓存依赖
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.pnpm-store
+            node_modules
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
+
 
       - name: 安装依赖
         run: |
@@ -50,3 +64,4 @@ jobs:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
+          clean: true
