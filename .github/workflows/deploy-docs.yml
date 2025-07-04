@@ -22,24 +22,23 @@ jobs:
         with:
           version: 8
 
-      - name: 设置 Node.js
+      - name: 设置 Node.js (禁用缓存)
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # 完全禁用 setup-node 的缓存
-          cache: false
+          # 正确禁用缓存的方式
+          cache: ''
 
-      - name: 获取 pnpm 存储路径
-        id: pnpm-store
+      - name: 准备缓存目录
         run: |
-          echo "STORE_DIR=$(pnpm store path)" >> $GITHUB_OUTPUT
-          mkdir -p "$(pnpm store path)"
+          mkdir -p ~/.pnpm-store
+          mkdir -p node_modules
 
-      - name: 缓存依赖
+      - name: 缓存 pnpm 依赖
         uses: actions/cache@v3
         with:
           path: |
-            ${{ steps.pnpm-store.outputs.STORE_DIR }}
+            ~/.pnpm-store
             node_modules
           key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
           restore-keys: |
@@ -49,12 +48,6 @@ jobs:
         run: |
           corepack enable
           pnpm install --frozen-lockfile
-
-      - name: 验证缓存目录
-        run: |
-          echo "当前 pnpm 存储路径:"
-          pnpm store path
-          ls -la "$(pnpm store path)"
 
       - name: 构建文档
         env:
