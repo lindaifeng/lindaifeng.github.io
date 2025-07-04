@@ -14,7 +14,7 @@ export default navbar([
   {
     text: "数据库知识库",
     icon: "fa-solid fa-database",
-    link: "/database/Mongo数据库/Mongo数据库概述.md"
+    link: "/database/Mongo数据库/1.Mongo数据库概述.md"
   },
   {
     text: "框架知识库",
