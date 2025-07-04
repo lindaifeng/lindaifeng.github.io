@@ -1,4 +1,3 @@
-
 name: 部署文档
 
 on:
@@ -17,51 +16,35 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
-          # submodules: true
 
       - name: 设置 pnpm
         uses: pnpm/action-setup@v4
         with:
           version: 8
 
-
-      - name: 创建缓存目录
-        run: |
-          mkdir -p ~/.pnpm-store
-          mkdir -p node_modules
-
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'pnpm'
-
-      - name: 缓存依赖
-        uses: actions/cache@v3
-        with:
-          path: |
-            ~/.pnpm-store
-            node_modules
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
-
+          cache: 'pnpm'  # 使用setup-node内置的pnpm缓存
 
       - name: 安装依赖
         run: |
           corepack enable
           pnpm install --frozen-lockfile
+          # 确保缓存目录被创建
+          pnpm store path | xargs mkdir -p
 
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
+        run: |
           pnpm run docs:build
-          > src/.vuepress/dist/.nojekyll
+          touch src/.vuepress/dist/.nojekyll
 
-      - name: 部署文档1
+      - name: 部署到 GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
           clean: true
