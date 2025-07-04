@@ -13,7 +13,7 @@ heroImage: /assets/17262062038347.png
 bgImageStyle:
   background-attachment: fixed
 heroText: 清峰小栈
-tagline: 学习知识库总结指南。
+tagline: 我的知识库总结指南。
 actions:
   - text: 开始阅读
     icon: lightbulb

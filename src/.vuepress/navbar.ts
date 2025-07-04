@@ -9,17 +9,17 @@ export default navbar([
   {
     text: "Java知识库",
     icon: "fa-brands fa-java",
-    link: "/java/0、开发规范/编码规范.md",
+    link: "/java/",
   },
   {
     text: "数据库知识库",
     icon: "fa-solid fa-database",
-    link: "/database/Redis数据库/Redis基础.md"
+    link: "/database/Mongo数据库/Mongo数据库概述.md"
   },
   {
     text: "框架知识库",
     icon: "fa-solid fa-paper-plane",
-    link: "/frame/springboot/SpringBoot自动装配原理.md"
+    link: "/frame/spring/1. Spring框架概述.md"
   },
   {
     text: "中间件知识库",

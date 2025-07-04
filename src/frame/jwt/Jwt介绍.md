@@ -1,8 +1,4 @@
----
-title: Jwt介绍
----
-
-## JWT 介绍
+# JWT 介绍
 
 > JWT 是 JSON Web Token 的缩写，JWT 本身没有定义任何技术实现，它只是定义了一种基于 Token 的会话管理的规则，涵盖 Token
 > 需要包含的标准内容和 Token 的生成过程。
