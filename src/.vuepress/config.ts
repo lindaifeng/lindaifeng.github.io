@@ -24,7 +24,7 @@ export default defineUserConfig({
     ['script',{},"var _hmt = _hmt || [];\n" +
       "(function() {\n" +
       "  var hm = document.createElement(\"script\");\n" +
-      "  hm.src = \"https://hm.baidu.com/hm.js?5fd4bcd39197e8c4bf406d1b2add643c\";\n" +
+      "  hm.src = \"https://hm.baidu.com/hm.js?ca85d6fd16ae8614cd8d5d4e94c5765d\";\n" +
       "  var s = document.getElementsByTagName(\"script\")[0]; \n" +
       "  s.parentNode.insertBefore(hm, s);\n" +
       "})();"]
