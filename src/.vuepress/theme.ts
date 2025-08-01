@@ -15,7 +15,7 @@ export default hopeTheme({
   },
   //站点图标
   // favicon: "/assets/1726206451406.png",
-  favicon: "http://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406.png",
+  favicon: "https://img.lindaifeng.vip/typora-picgo-tuchaung/1726206451406.png",
 
   //字体图标资源链接
   iconAssets: "fontawesome-with-brands",
@@ -77,6 +77,7 @@ export default hopeTheme({
       category: "Announcements",
       categoryId: "DIC_kwDOMq3Mps4CjjJE",
     },
+    copyright: true,
 
     components: {
       components: ["Badge", "VPCard"],
