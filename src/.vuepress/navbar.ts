@@ -9,7 +9,7 @@ export default navbar([
   {
     text: "Java知识库",
     icon: "fa-brands fa-java",
-    link: "/java/",
+    link: "/java/1、开发规范/编码规范/基础-命名规范.md",
   },
   {
     text: "数据库知识库",
@@ -19,7 +19,7 @@ export default navbar([
   {
     text: "框架知识库",
     icon: "fa-solid fa-paper-plane",
-    link: "/frame/spring/1. Spring框架概述.md"
+    link: "/frame/jwt/1. JWT介绍.md"
   },
   {
     text: "中间件知识库",
