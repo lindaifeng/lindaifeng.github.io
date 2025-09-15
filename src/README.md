@@ -89,7 +89,7 @@ footer:  MIT 协议 | 版权所有 © 2024-至今 清峰小栈
 <h2>是什么？</h2>
 
 <br>
-&nbsp 自己写文的目的是为了记录自己对知识点的掌握程度，在未来的发展过程中不断的巩固，从而形成一个自己熟悉且较为完备的知识体系。
+&nbsp 自己写文的目的是为了记录自己对知识点的掌握程度，在未来的成长过程中不断的巩固，从而形成一个自己熟悉且较为完备的知识体系。
 <br>
 
 <h2>为什么？</h2>
@@ -108,54 +108,20 @@ footer:  MIT 协议 | 版权所有 © 2024-至今 清峰小栈
 ::: echarts 清峰小栈访问趋势图
 
 ```js
-// const oneDay = 86400000;
-// const data = [];
-// let now = new Date(1997, 9, 3);
-// let value = Math.random() * 1000;
+
 let currentDate = new Date();
 let xData = [];
 let year = currentDate.getFullYear();
-for (let i = 1; i <= 12; i++) {
+// 只生成1月到当前月份的数据
+let currentMonth = currentDate.getMonth() + 1; // getMonth()返回0-11，所以需要+1
+for (let i = 1; i <= currentMonth; i++) {
   xData.push(`${year}/${i.toString().padStart(2, '0')}`);
 }
-// const randomData = () => {
-//   now = new Date(+now + oneDay);
-//   value = value + Math.random() * 21 - 10;
-//   return {
-//     name: now.toString(),
-//     value: [
-//       [now.getFullYear(), now.getMonth() + 1, now.getDate()].join("/"),
-//       Math.round(value),
-//     ],
-//   };
-// };
 
-// for (let i = 0; i < 1000; i++) data.push(randomData());
-// const Http = new XMLHttpRequest();
-// const url='https://jsonplaceholder.typicode.com/posts';
-// Http.open("GET", url);
-// Http.send();
-
-// Http.onreadystatechange = (e) => {
-//   console.log(Http.responseText)
-// }
 let data = [];
 const option = {
   tooltip: {
     trigger: "axis",
-    // formatter: function (params) {
-    //   params = params[0];
-    //   var date = new Date(params.name);
-    //   return (
-    //     date.getDate() +
-    //     "/" +
-    //     (date.getMonth() + 1) +
-    //     "/" +
-    //     date.getFullYear() +
-    //     " : " +
-    //     params.value[1]
-    //   );
-    // },
     axisPointer: {
       animation: false,
     },
@@ -211,7 +177,7 @@ myChart.setOption(option);
 // 当前月份进行5-10区间的叠加，每5秒更新一次
 const run = () => {
   // 确保月份在data数组范围内
-  let month = currentDate.getMonth();
+  let month = currentDate.getMonth(); // getMonth()返回0-11，对应data数组的索引
   if (month < data.length) {
     data[month] += Math.floor(Math.random() * (10 - 5 + 1)) + 10;
     // 更新图表
@@ -221,19 +187,3 @@ const run = () => {
 
 // 设置定时器
 const timeId = setInterval(run, 5000);
-
-// 假设这里是图表的销毁钩子，例如Vue的beforeDestroy生命周期钩子
-// 需要在实际环境中替换为合适的销毁逻辑
-// beforeDestroy() {
-//   if (timeId) {
-//     clearInterval(timeId);
-//   }
-//   if (myChart && !myChart._disposed) {
-//     myChart.dispose();
-//   }
-// }
-```
-
-:::
-
-<!-- #include-env-end -->
