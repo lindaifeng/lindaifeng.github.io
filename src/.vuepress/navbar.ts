@@ -57,6 +57,11 @@ export default navbar([
       },
     ]
   },
+  {
+    text: "测试页面",
+    icon: "fa-solid fa-vial",
+    link: "/test-mermaid.html"
+  },
   //博客门户
   // "/portfolio",
   //演示文档

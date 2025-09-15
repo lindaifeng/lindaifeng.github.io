@@ -4,6 +4,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
+  // 对于用户/组织页面 (username.github.io)，base 应该设置为 "/"
   base: "/",
   lang: "zh-CN",
   title: "文档演示",

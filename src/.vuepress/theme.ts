@@ -5,13 +5,13 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   // 主题网站
-  hostname: "http://blog.lindaifeng.vip/",
+  hostname: "https://lindaifeng.github.io",
   // 深色模式
   darkmode:"switch",
   // 作者信息
   author: {
     name: "清峰",
-    url: "http://blog.lindaifeng.vip/",
+    url: "https://lindaifeng.github.io",
   },
   //站点图标
   // favicon: "/assets/1726206451406.png",
@@ -24,7 +24,7 @@ export default hopeTheme({
   logo: "/assets/17262062636347.png",
 
   // 仓库链接
-  // repo: "https://github.com/lindaifeng/docs",
+  repo: "https://github.com/lindaifeng/lindaifeng.github.io",
 
   // 根目录
   docsDir: "src",
