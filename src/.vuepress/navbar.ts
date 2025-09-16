@@ -43,7 +43,7 @@ export default navbar([
       {
         text: "常用命令",
         icon: "fa-solid fa-gear",
-        link: "/extra/常用命令/操作系统命令/A常用Linux命令大全.md"
+        link: "/extra/常用命令/操作系统命令/Linux常用命令大全.md"
       },
       {
         text: "常用插件",
