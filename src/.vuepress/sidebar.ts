@@ -8,6 +8,8 @@ export default sidebar({
   "/middleware/": "structure",
   "/deploy/": "structure",
   "/web/": "structure",
+  "/extra/插件/": "structure",
+  "/extra/代码片段/": "structure",
   "/extra/常用命令/": [
     {
       text: "操作系统命令",
