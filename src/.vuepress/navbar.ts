@@ -24,7 +24,7 @@ export default navbar([
   {
     text: "中间件知识库",
     icon: "fa-solid fa-book",
-    link: "/middleware/容器化技术/Docker技术/Docker介绍.md"
+    link: "/middleware/容器化技术/Docker技术/1.基础概念/1.Docker核心概念.md"
   },
   {
     text: "部署文档",

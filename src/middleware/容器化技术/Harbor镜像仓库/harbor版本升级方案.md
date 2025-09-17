@@ -1,15 +1,4 @@
----
-title: harbor版本升级方案
-categories: 
-  - Docker
-tags: 
-  - harbor
-order: 1
----
-
-
-
-## harbor升级方案
+# Harbor升级方案
 
 ### 环境检查
 

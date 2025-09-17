@@ -1,14 +1,3 @@
----
-title: Linux 配置ELK开启自启动配置
-categories: 
-  - ELK
-tags: 
-  - elk
-order: 2
----
-
-
-
 # Linux 配置ELK开启自启动配置
 
 ## 各中间件默认端口：

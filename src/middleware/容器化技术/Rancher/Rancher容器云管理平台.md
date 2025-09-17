@@ -1,15 +1,4 @@
----
-title: Rancher容器云管理平台
-categories: 
-  - Rancher
-tags: 
-  - rancher
-order: 1
----
-
-
-
-# Rancher容器云管理平台
+# Rancher容器云管理平台安装
 
 **文中所有ip均为内网ip，外部互联网无法访问**
 

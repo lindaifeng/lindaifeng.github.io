@@ -1,14 +1,3 @@
----
-title: ELK登录认证配置
-categories: 
-  - ELK
-tags: 
-  - elk
-order: 1
----
-
-
-
 ## ELK登录认证
 
 > 当我们安装好ELK后，默认是可以直接访问到kibana的，可以直接查看收集到的信息，这样很不安全。
