@@ -1,12 +1,3 @@
----
-title: Linux docker安装ELK
-categories: 
-  - Docker
-tags: 
-  - elk
-order: 3
----
-
 # Linux docker安装ELK
 
 **实现目标：**

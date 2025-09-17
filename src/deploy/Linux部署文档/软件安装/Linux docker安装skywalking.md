@@ -1,15 +1,5 @@
----
-title: Linux docker安装skywalking
-categories: 
-  - Docker
-tags: 
-  - skywalking
-order: 4
----
-
-
-
-# Skywalking + ES + Docker
+# Linux docker安装skywalking
+## Skywalking + ES + Docker
 
 > 搭建 elasticsearch集群 及 kibana
 >

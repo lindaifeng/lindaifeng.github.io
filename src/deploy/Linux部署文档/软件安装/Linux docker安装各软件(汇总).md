@@ -1,15 +1,6 @@
----
-title: docker安装各软件（汇总）
-categories: 
-  - Docker
-tags: 
-  - docker
-order: 2
----
+# Docker安装各软件（汇总）
 
-## Docker安装各软件（汇总）
-
-## 一、docker**安装oracle-12c**
+## 一、docker安装oracle-12c
 
 ### **1、拉取oracle-12c镜像**
 
