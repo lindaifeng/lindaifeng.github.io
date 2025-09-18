@@ -89,21 +89,21 @@ export default sidebar({
       icon: "fas fa-key",
       prefix: "jwt/",
       children: "structure",
-      collapsible: true
+      collapsible: false
     },
     {
       text: "Spring",
       icon: "fas fa-leaf",
       prefix: "spring/",
       children: "structure",
-      collapsible: true
+      collapsible: false
     },
     {
       text: "Spring Boot",
       icon: "fas fa-rocket",
       prefix: "springboot/",
       children: "structure",
-      collapsible: true
+      collapsible: false
     }
   ],
   "/middleware/": [
