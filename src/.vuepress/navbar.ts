@@ -55,6 +55,11 @@ export default navbar([
         icon: "fa-solid fa-gear",
         link: "/extra/代码片段/AOP日志埋点.md"
       },
+      {
+        text: "Linux命令速查",
+        icon: "fa-solid fa-gear",
+        link: "http://linux.lindaifeng.vip/"
+      },
     ]
   },
   //博客门户
