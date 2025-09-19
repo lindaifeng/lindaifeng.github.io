@@ -11,9 +11,11 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
+    "@shikijs/langs": "^3.12.2",
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "@vuepress/plugin-baidu-analytics": "2.0.0-rc.56",
     "@vuepress/plugin-google-analytics": "^1.9.10",
+    "@vuepress/plugin-shiki": "2.0.0-rc.39",
     "echarts": "^5.5.1",
     "mermaid": "^11.7.0",
     "vue": "^3.4.31",

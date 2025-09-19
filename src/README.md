@@ -94,7 +94,7 @@ footer:  MIT 协议 | 版权所有 © 2024-至今 清峰小栈
 
 <h2>为什么？</h2>
 
-::: tip Tip: &nbsp <span style="color:#3eaf7c;">经验是动态积累的，能力是持续生长的</span>
+::: tip Tip: &nbsp   <span style="color:#3eaf7c;">经验是动态积累的，能力是持续生长的</span>
 盖好一栋大厦的关键在于打好地基，但后期的维护和补丁也不可或缺，做笔记并不是目的，目的是为了掌握知识点。 
 :::
 
