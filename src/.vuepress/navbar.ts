@@ -19,7 +19,7 @@ export default navbar([
   {
     text: "框架知识库",
     icon: "fa-solid fa-paper-plane",
-    link: "/frame/jwt/1. JWT介绍.md"
+    link: "/frame/jwt/1.JWT介绍.md"
   },
   {
     text: "中间件知识库",
